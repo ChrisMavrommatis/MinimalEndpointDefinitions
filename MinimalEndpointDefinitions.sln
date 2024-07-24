@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# 17
+VisualStudioVersion = 17.11.35111.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimalEndpointDefinitions", "src\MinimalEndpointDefinitions\MinimalEndpointDefinitions.csproj", "{F3C18861-7BD7-4501-BB26-60AEF0437F3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{840A8436-6F78-4065-AAFC-34BA65BC26DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_root", "_root", "{A1589ABC-A9DB-4A72-9901-E09CD8FDD528}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3C18861-7BD7-4501-BB26-60AEF0437F3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3C18861-7BD7-4501-BB26-60AEF0437F3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3C18861-7BD7-4501-BB26-60AEF0437F3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3C18861-7BD7-4501-BB26-60AEF0437F3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F3C18861-7BD7-4501-BB26-60AEF0437F3D} = {840A8436-6F78-4065-AAFC-34BA65BC26DB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BBC3CEB-E3C2-40E3-A0CC-79C0C1F17280}
+	EndGlobalSection
+EndGlobal
