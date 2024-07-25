@@ -32,6 +32,18 @@ dotnet add package ChrisMavrommatis.MinimalEndpointDefinitions
 ```
 
 ## Usage
+In your startup class use the `AddMinimalEndpointDefinitions<T>` extension method while registering your services. This will discover all of the definitions in the assembly of `T`
+```csharp
+builder.Services.AddMinimalEndpointDefinitions<IModuleMarker>();
+```
+Then use the `UseMinimalEndpointDefinitions` extension method
+```csharp
+app.UseMinimalEndpointDefinitions();
+```
+
+Now you are ready to create endpoints
+
+## Creating Endpoints
 The library provides a `IEndpointDefinition` interface that you can use to define an endpoint.
 You can then use the `DefineEndpoint` method to register the endpoint.
 
